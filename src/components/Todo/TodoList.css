@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #66c7f0, #79cce7, #53a3c5);
+  color: #fff;
+}
+
+.todo-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.todo-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgba(110, 168, 239, 0.1);
+  color: white;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 14px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #eee;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: rgba(98, 167, 237, 0.12);
+}
+
+span {
+  display: flex;
+  gap: 8px;
+}
+
+span button {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+span button:first-child {
+  background-color: #f1c40f;
+  color: #000;
+}
+
+span button:first-child:hover {
+  background-color: #d4ac0d;
+}
+
+span button:last-child {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+span button:last-child:hover {
+  background-color: #c0392b;
+}
