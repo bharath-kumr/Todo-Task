@@ -56,44 +56,6 @@ src/
 └── main.jsx
 ```
 
----
-
-## 💻 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/bharath-kumr
-cd todo-app
-```
-
-### 2. Install dependencies
-```bash
-npm install
-```
-
-### 3. Start the development server
-```bash
-npm run dev
-```
-
-### 4. Start JSON Server (for fake API)
-```bash
-npx json-server --watch db.json --port 3001
-```
-
----
-
-## 🧪 API Example (`db.json`)
-
-```json
-{
-  "users": [],
-  "todos": []
-}
-```
-
----
-
 ## 📷 Screenshots
 
 ![Login Page](screenshots/login.png)
